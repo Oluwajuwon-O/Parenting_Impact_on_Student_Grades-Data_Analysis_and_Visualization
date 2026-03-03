@@ -3,9 +3,6 @@
 
 
 ## Dataset
-
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
-
 >The dataset to be analyzed contains two subsets of student performance in two distinct subjects in two Portuguese schools. The subjects are maths and portuguese. It also contains information about their parental background. These data relate to the state of their relationships and their profession. The data was collated using questionnaires. I analyzed the data on the portuguese subject.
 The dataset was tidy enough, the only wrangling I performed was obtaining the average of the 3 provided grades of the students which I then chose as my main variable of interest.
 There are 649 students in the dataset with 33 columns. They are
@@ -48,8 +45,6 @@ They are mostly categorical variables of ordinal and nominal types.
 
 
 ## Summary of Findings
-
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
 > Univariate Analysis
 - The distribution of the grades of `avg_G` is approximately normal, but slightly skewed towards the left. Some students had average grades less than 6.0.
 - `Pstatus`: Over 500 parents are living together. The number of those living apart isn't up to 100
@@ -79,9 +74,6 @@ When comparing the relationship between strength of student family relationship 
 
 
 ## Key Insights for Presentation
-
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
-
 - Students who have their parents as their guardians had better academic performance than those who do not.
 - Most of the students had their mothers as their guardians, this tells that mothers tend to be there for their children than the fathers. 
 This is commendable. Interestingly, analysis showed that the median grades of students whose fathers are their guardians is higher than 
